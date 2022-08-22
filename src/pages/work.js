@@ -1,6 +1,5 @@
 import React from "react";
 import "./Action.css";
-import { Link } from "react-router-dom";
 
 function Work() {
   return (
