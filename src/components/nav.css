@@ -1,0 +1,31 @@
+ul {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #555;
+}
+
+li {
+  float: left;
+  font-size: 20px;
+}
+
+a {
+  display: block;
+  color: #04aa6d;
+  padding: 20px 25px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.Donate {
+  background: #04aa6d;
+  color: white;
+}
