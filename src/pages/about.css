@@ -2,7 +2,7 @@
 .About {
   display: flex;
   text-align: center;
-  background-color: #04aa6d;
+  background-color: #15803d;
   height: auto;
   color: white;
   padding: 30px;
@@ -28,4 +28,5 @@
 .Text {
   font-size: 18px;
   padding: 0px 100px;
+  color: #dcfce7;
 }

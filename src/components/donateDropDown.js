@@ -3,10 +3,16 @@ import { CheckIcon, SelectorIcon } from "@heroicons/react/solid";
 import { Combobox } from "@headlessui/react";
 
 const people = [
-  { name: "Disaster Relief", username: "@lesliealexander" },
-  { name: "Agriculture", username: "@lesliealexander" },
-  { name: "Construction", username: "@lesliealexander" },
-  { name: "Wherever It's Needed Most", username: "@lesliealexander" },
+  {
+    name: "Disaster Relief",
+    username: "We do disaster relief related work...",
+  },
+  { name: "Agriculture", username: "We do agriculture related work..." },
+  {
+    name: "Construction",
+    username: "We do disaster construction related work...",
+  },
+  { name: "Wherever It's Needed Most", username: "We do all work..." },
 ];
 
 function classNames(...classes) {
@@ -31,7 +37,7 @@ export default function Example() {
       </Combobox.Label>
       <div className="relative mt-1">
         <Combobox.Input
-          className="w-full rounded-md border border-gray-300 bg-white py-2 pl-3 pr-10 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500 sm:text-sm"
+          className="w-full rounded-md border border-gray-300 bg-white py-2 pl-3 pr-10 shadow-sm focus:border-green-500 focus:outline-none focus:ring-1 focus:ring-green-500 sm:text-sm"
           onChange={(event) => setQuery(event.target.value)}
           displayValue={(person) => person?.name}
         />
@@ -48,7 +54,7 @@ export default function Example() {
                 className={({ active }) =>
                   classNames(
                     "relative cursor-default select-none py-2 pl-3 pr-9",
-                    active ? "bg-indigo-600 text-white" : "text-gray-900"
+                    active ? "bg-green-600 text-white" : "text-gray-900"
                   )
                 }
               >
@@ -66,7 +72,7 @@ export default function Example() {
                       <span
                         className={classNames(
                           "ml-2 truncate text-gray-500",
-                          active ? "text-indigo-200" : "text-gray-500"
+                          active ? "text-green-200" : "text-gray-500"
                         )}
                       >
                         {person.username}
@@ -77,7 +83,7 @@ export default function Example() {
                       <span
                         className={classNames(
                           "absolute inset-y-0 right-0 flex items-center pr-4",
-                          active ? "text-white" : "text-indigo-600"
+                          active ? "text-white" : "text-green-600"
                         )}
                       >
                         <CheckIcon className="h-5 w-5" aria-hidden="true" />
