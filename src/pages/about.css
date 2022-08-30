@@ -30,3 +30,8 @@
   padding: 0px 100px;
   color: #dcfce7;
 }
+
+.label:after {
+  content: "\A";
+  white-space: pre;
+}

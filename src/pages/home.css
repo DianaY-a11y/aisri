@@ -8,15 +8,6 @@
   color: white;
 }
 
-h2 {
-  font-size: 80px;
-  font-weight: bolder;
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 h4 {
   font-size: 28px;
   position: absolute;
@@ -127,11 +118,6 @@ img {
 .Title {
   font-size: 100px;
   color: #04aa6d;
-}
-
-p {
-  font-size: 40px;
-  padding: 40px;
 }
 
 .impactContainer {
