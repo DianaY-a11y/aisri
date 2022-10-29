@@ -1,6 +1,7 @@
 import React from "react";
 import "./home.css";
 import HomeImage from "../images/homephoto.jpeg";
+import { Link } from "react-router-dom";
 
 const people = [
   {
@@ -56,8 +57,9 @@ function Home() {
                 src={HomeImage}
                 alt="Ghana Children"
               />
-              <div className="absolute inset-0 bg-gradient-to-r from-purple-800 to-indigo-700 mix-blend-multiply" />
+              <div className="absolute inset-0 bg-gradient-to-r from-gray-400 to-gray-500 mix-blend-multiply" />
             </div>
+
             <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
               <h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
                 <span className="block text-white">ASIRI</span>
@@ -68,13 +70,13 @@ function Home() {
               <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
                 <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
                   <a
-                    href="#"
+                    href="/Work"
                     className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-green-700 bg-white hover:bg-green-50 sm:px-8"
                   >
                     Projects
                   </a>
                   <a
-                    href="#"
+                    href="/Donation"
                     className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-green-500 bg-opacity-60 hover:bg-opacity-70 sm:px-8"
                   >
                     Donate
@@ -82,18 +84,17 @@ function Home() {
                 </div>
               </div>
             </div>
-          </div>
+          </div>d
         </div>
       </div>
 
       <div className="relative pt-20 pb-28 overflow-hidden">
-        <div className="relative">
-          <div>
-            <div className="mt-20">
-              <h2 className="text-3xl font-bold text-gray-900">
-                Asiri Rural Development Network empwoers rural communities.
-              </h2>
-            </div>
+        <div>
+          <div style={{ display: "flex", justifyContent: "center" }}>
+            <h2 className="text-3xl font-bold text-gray-800">
+              The Asiri Rural Community Development Organisation empowers rural
+              communities.
+            </h2>
           </div>
         </div>
       </div>
@@ -102,7 +103,7 @@ function Home() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8">
           <div className="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
             <p className="mt-3 text-3xl tracking-tight font-bold text-white">
-              We Are Asiri Rural Development
+              We Are The Asiri Rural Community Development Organisation
             </p>
 
             <div className="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">

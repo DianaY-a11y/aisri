@@ -208,34 +208,48 @@ export default function Mission() {
                 {link.name == "Values" ? (
                   <>
                     <p className="text-base text-gray-500">
+                      <br></br>
                       <span class="label">
                         <strong className="text-lg font-medium leading-6 text-green-700">
                           Wellbeing:
                         </strong>{" "}
-                        We provide avenues for improved and better wellbeing of
-                        humans, mainly rural population, through our mobilized
-                        resources for initiating, putting in place, improving
-                        and advancing facilities, structure and development
-                        projects.
+                        <p
+                          className="text-base text-gray-500"
+                          style={{ display: "block", marginBottom: "-1em" }}
+                        >
+                          We provide avenues for improved and better wellbeing
+                          of humans, mainly rural population, through our
+                          mobilized resources for initiating, putting in place,
+                          improving and advancing facilities, structure and
+                          development projects.
+                        </p>
+                        <br></br>
                         <strong>Wellbeing Defined:</strong>
                         The overall state of being healthy, free from distress,
                         compassion and burnouts, depression, and anxiety, among
                         other factors and characteristics that translate into
                         happiness and comfort (Nyarko, 2021).
                       </span>
+                      <br></br>
                       <span class="label">
+                        {" "}
                         <strong className="text-lg font-medium leading-6 text-green-700">
                           Access:
                         </strong>{" "}
-                        We provide basic resources and facilities that many
-                        rural dwellings are woefully deprived of.
+                        <p className="text-base text-gray-500">
+                          We provide basic resources and facilities that many
+                          rural dwellings are woefully deprived of.
+                        </p>
                       </span>
+                      <br></br>
                       <span class="label">
                         <strong className="text-lg font-medium leading-6 text-green-700">
                           Stewardship:
                         </strong>{" "}
-                        We commit to responsible planning and management of
-                        resources that are in our care or entrusted to us.
+                        <p className="text-base text-gray-500">
+                          We commit to responsible planning and management of
+                          resources that are in our care or entrusted to us.
+                        </p>
                       </span>
                     </p>
                   </>
@@ -250,10 +264,10 @@ export default function Mission() {
       <div className="mt-8 bg-green-800">
         <div className="mx-auto max-w-7xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
           <div className="text-center">
-            <p className="mt-1 text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
+            <p className="mt-1 text-4xl font-bold tracking-tight text-white sm:text-4xl lg:text-4xl">
               Our Organization
             </p>
-            <p className="mx-auto mt-5 max-w-7xl min-w-7xl text-xl text-green-100">
+            <p className=" text-lg font-medium leading-6 text-green-700 mx-auto mt-5 max-w-5xl min-w-5xl text-xl text-green-100">
               The Asiri Rural Development Network is a non-profit charitable
               organization formally registered both in Ghana and the United
               States. We are currently committed to improving wellbeing of rural
@@ -271,26 +285,24 @@ export default function Mission() {
             <p className="mt-1 text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
               Our History
             </p>
-            <p className="mx-auto mt-5 max-w-7xl min-w-7xl text-xl text-green-100">
-              Currently registered in the United States, The Asiri Rural
-              Development Network (Asiri RDN) was formed on December 11, 2019
-              and first registered in Ghana on September 25, 2020. Originally,
-              the Asiri RDN was founded by Richard Nyarko (initiator/leader) and
-              Ernest Tachie-Abiam (manager and co-founder) with inspiration from
-              and based on the ideas presented in a community development
-              project paper written by Richard Nyarko, University of
-              Saskatchewan Graduate Student. Nana Asante Konadu and Mr. Kwasi
-              Addane acted as the first Chairman and Vice-Chairman respectively
-              until the formal appointment of Dr. Francis Asomah as Chairman and
-              Dr. Elizabeth Konadu as Vice-Chairperson. Currently there are over
-              200 members supporting this organization through donations and
-              volunteer human resources, mainly those who are interested in
-              supporting rural communities and ready to contribute to their
-              development. Since its establishment, the Asiri RDN has been
-              supporting and significantly improved the community health centre
-              among other projects in Asiri, Ghana. It has provided these rural
-              dwellings with access to improved healthcare and wellbeing that
-              they have been long deprived of.
+            <p className="mx-auto mt-5 max-w-4xl min-w-2xl text-m text-green-100">
+              The Asiri Rural Community Development Organization was formed on
+              December 11, 2019 and registered in Ghana on September 25, 2020.
+              Originally, the Asiri RDN was founded by Richard Nyarko
+              (initiator/leader) and Ernest Tachie-Abiam (manager and
+              co-founder) with inspiration from and based on the ideas presented
+              in a community development project paper written by Richard
+              Nyarko, a University of Saskatchewan Graduate Student. Nana Asante
+              Konadu and Mr. Kwasi Addane acted as the first Chairman and
+              Vice-Chairman, respectively. Currently, there are over 200 members
+              supporting this organization through donations and volunteer human
+              resources, mainly those who are interested in supporting rural
+              communities and ready to contribute to their development. Since
+              its establishment, the Asiri Rural Community Development
+              Organization has been supporting and significantly improving the
+              community health center, among other projects in Asiri, Ghana. It
+              has provided these rural dwellings with access to improved
+              healthcare and wellbeing that they have been long deprived of.
             </p>
           </div>
         </div>
