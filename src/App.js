@@ -12,14 +12,15 @@ function App() {
     <div>
       <Router>
         <div className="App">
-          <NavBar />
+          Coming soon
+          {/* <NavBar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/About" element={<About />} />
             <Route path="/Work" element={<Work />} />
             <Route path="/Action" element={<Action />} />
             <Route path="/Donation" element={<Donation />} />
-          </Routes>
+          </Routes> */}
         </div>
       </Router>
     </div>
