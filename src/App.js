@@ -12,7 +12,17 @@ function App() {
     <div>
       <Router>
         <div className="App">
-          Coming soon
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              textAlign: "center",
+              alignItems: "center",
+            }}
+          >
+            Coming soon
+          </div>
+
           {/* <NavBar />
           <Routes>
             <Route path="/" element={<Home />} />
